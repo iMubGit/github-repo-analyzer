@@ -1,0 +1,54 @@
+{
+  "analyzed_at": "2025-11-13T14:52:51.933479",
+  "username": "imubgit",
+  "filters": {
+    "min_stars": 0
+  },
+  "summary": {
+    "total_repos": 2,
+    "total_stars": 0,
+    "total_forks": 0,
+    "avg_stars_per_repo": 0.0,
+    "languages": {
+      "Python": 1
+    },
+    "most_starred": "30-Days-Of-Python",
+    "most_recent": "30-Days-Of-Python",
+    "popular_repos": [
+      "30-Days-Of-Python",
+      "salut-le-monde"
+    ]
+  },
+  "repositories": [
+    {
+      "name": "30-Days-Of-Python",
+      "description": "30 days of Python programming challenge is a step-by-step guide to learn the Python programming lang",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "language": "Python",
+      "created": "2024-07-03",
+      "updated": "2024-07-03",
+      "size_mb": 27.3,
+      "private": false,
+      "url": "https://github.com/iMubGit/30-Days-Of-Python",
+      "watchers": 0,
+      "topics": ""
+    },
+    {
+      "name": "salut-le-monde",
+      "description": "This repo is about git remote",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "language": "Unknown",
+      "created": "2024-07-03",
+      "updated": "2024-07-03",
+      "size_mb": 0.0,
+      "private": false,
+      "url": "https://github.com/iMubGit/salut-le-monde",
+      "watchers": 0,
+      "topics": ""
+    }
+  ]
+}
