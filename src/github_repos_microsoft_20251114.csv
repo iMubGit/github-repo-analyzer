@@ -1,0 +1,38 @@
+name,description,stars,forks,open_issues,language,created,updated,size_mb,private,url,watchers,topics
+winget-pkgs,The Microsoft community Windows Package Manager manifest repository,9898,5612,1781,PowerShell,2019-07-16,2025-11-14,557.8,False,https://github.com/microsoft/winget-pkgs,9898,hacktoberfest
+call-center-ai,"Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone",2754,381,29,Python,2024-01-09,2025-11-14,186.4,False,https://github.com/microsoft/call-center-ai,2754,
+MS-DOS,"The original sources of MS-DOS 1.25, 2.0, and 4.0 for reference purposes",31555,4517,3,Assembly,2018-06-25,2025-11-14,117.4,False,https://github.com/microsoft/MS-DOS,31555,ms-dos
+generative-ai-for-beginners,"21 Lessons, Get Started Building with Generative AI ",101771,54062,3,Jupyter Notebook,2023-06-19,2025-11-14,5794.1,False,https://github.com/microsoft/generative-ai-for-beginners,101771,"ai, azure, chatgpt"
+component-detection,Scans your project to determine what components you use,515,112,132,C#,2021-11-16,2025-11-14,6.1,False,https://github.com/microsoft/component-detection,515,"dependencies, package-management, sbom"
+FluidFramework,"Library for building distributed, real-time collaborative web  applications",4885,557,93,TypeScript,2019-08-22,2025-11-14,677.6,False,https://github.com/microsoft/FluidFramework,4885,"collaboration, crdt, datastructure"
+mimalloc,mimalloc is a compact general purpose allocator with excellent performance.,12143,1015,404,C,2019-06-19,2025-11-14,7.9,False,https://github.com/microsoft/mimalloc,12143,
+vcpkg,"C++ Library Manager for Windows, Linux, and MacOS",26070,7171,1328,CMake,2016-09-15,2025-11-14,92.0,False,https://github.com/microsoft/vcpkg,26070,"c, cmake, cplusplus"
+Data-Science-For-Beginners,"10 Weeks, 20 Lessons, Data Science for All!",31305,6596,7,Jupyter Notebook,2021-03-03,2025-11-14,1225.7,False,https://github.com/microsoft/Data-Science-For-Beginners,31305,"data-analysis, data-science, data-visualization"
+playwright,"Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and We",79317,4821,562,TypeScript,2019-11-15,2025-11-14,213.9,False,https://github.com/microsoft/playwright,79317,"automation, chrome, chromium"
+PowerToys,Microsoft PowerToys is a collection of utilities that help you customize Windows and streamline ever,125697,7476,7563,C#,2019-05-01,2025-11-14,444.7,False,https://github.com/microsoft/PowerToys,125697,"color-picker, command-palette, desktop"
+cascadia-code,"This is a fun, new monospaced font that includes programming ligatures and is designed to enhance th",27303,839,152,Python,2019-07-10,2025-11-14,28.2,False,https://github.com/microsoft/cascadia-code,27303,
+playwright-mcp,Playwright MCP server,23213,1868,20,TypeScript,2025-03-21,2025-11-14,1.4,False,https://github.com/microsoft/playwright-mcp,23213,"mcp, playwright"
+autogen,A programming framework for agentic AI,51679,7853,507,Python,2023-08-18,2025-11-14,144.4,False,https://github.com/microsoft/autogen,51679,"agentic, agentic-agi, agents"
+markitdown,Python tool for converting files and office documents to Markdown.,83005,4705,383,Python,2024-11-13,2025-11-14,3.2,False,https://github.com/microsoft/markitdown,83005,"autogen, autogen-extension, langchain"
+XmlNotepad,XML Notepad provides a simple intuitive User Interface for browsing and editing XML documents.,1117,220,47,C#,2016-04-27,2025-11-14,13.1,False,https://github.com/microsoft/XmlNotepad,1117,
+mcp,Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered dat,2164,287,232,C#,2025-04-09,2025-11-14,47.1,False,https://github.com/microsoft/mcp,2164,
+calculator,Windows Calculator: A simple yet powerful calculator that ships with Windows,30718,5674,434,C++,2019-01-28,2025-11-14,38.8,False,https://github.com/microsoft/calculator,30718,"cpp, csharp, uwp"
+ML-For-Beginners,"12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",78890,18264,2,Jupyter Notebook,2021-03-03,2025-11-14,1563.7,False,https://github.com/microsoft/ML-For-Beginners,78890,"data-science, education, machine-learning"
+vscode,Visual Studio Code,178554,36152,14444,TypeScript,2015-09-03,2025-11-14,1056.8,False,https://github.com/microsoft/vscode,178554,"editor, electron, microsoft"
+ai-agents-for-beginners,12 Lessons to Get Started Building AI Agents,44915,15210,8,Jupyter Notebook,2024-11-28,2025-11-14,3152.1,False,https://github.com/microsoft/ai-agents-for-beginners,44915,"agentic-ai, agentic-framework, agentic-rag"
+monaco-editor,A browser based code editor,44609,3907,761,JavaScript,2016-06-07,2025-11-14,135.7,False,https://github.com/microsoft/monaco-editor,44609,"browser, editor, monaco-editor"
+pai,Resource scheduling and cluster management for AI,2680,550,282,JavaScript,2017-09-25,2025-11-14,72.1,False,https://github.com/microsoft/pai,2680,"ai, artificial-intelligence, chainer"
+TypeScript,TypeScript is a superset of JavaScript that compiles to clean JavaScript output.,106743,13113,5955,TypeScript,2014-06-17,2025-11-14,2821.7,False,https://github.com/microsoft/TypeScript,106743,"javascript, language, typechecker"
+code-with-engineering-playbook,"This is the playbook for ""code-with"" customer or partner engagements",2524,643,42,Dockerfile,2018-07-30,2025-11-14,91.3,False,https://github.com/microsoft/code-with-engineering-playbook,2524,
+Security-101,"8 Lessons, Kick-start Your Cybersecurity Learning.",5879,774,7,HTML,2024-01-31,2025-11-14,206.8,False,https://github.com/microsoft/Security-101,5879,"appsec, cia-triad, data-protection"
+referencesource,Source from the Microsoft .NET Reference Source that represent a subset of the .NET Framework,3329,1296,77,C#,2014-11-12,2025-11-14,43.0,False,https://github.com/microsoft/referencesource,3329,
+Web-Dev-For-Beginners,"24 Lessons, 12 Weeks, Get Started as a Web Developer",94214,14682,61,JavaScript,2020-11-10,2025-11-14,1651.5,False,https://github.com/microsoft/Web-Dev-For-Beginners,94214,"css, curriculum, education"
+playwright-python,Python version of the Playwright testing and automation library.,13921,1091,56,Python,2020-07-01,2025-11-14,8.6,False,https://github.com/microsoft/playwright-python,13921,"chromium, firefox, playwright"
+amplifier,No description,2450,185,20,Python,2025-09-09,2025-11-14,4.5,False,https://github.com/microsoft/amplifier,2450,
+openvmm,Home of OpenVMM and OpenHCL,1776,159,251,Rust,2024-03-01,2025-11-14,17.9,False,https://github.com/microsoft/openvmm,1776,"confidential-computing, rust, vmm"
+azurelinux,Linux OS for Azure 1P services and edge appliances,4507,603,724,RPM Spec,2020-07-22,2025-11-14,498.6,False,https://github.com/microsoft/azurelinux,4507,
+agent-academy,Curated lessons on getting started building agents with Copilot Studio,1045,84,32,PowerShell,2025-03-11,2025-11-14,3701.8,False,https://github.com/microsoft/agent-academy,1045,"agents, copilot"
+tsyringe,Lightweight dependency injection container for JavaScript/TypeScript,5761,177,74,TypeScript,2017-11-17,2025-11-14,1.1,False,https://github.com/microsoft/tsyringe,5761,"container, decorators, dependency"
+vscode-copilot-chat,Copilot Chat extension for VS Code,8948,1394,100,TypeScript,2025-06-10,2025-11-14,23.7,False,https://github.com/microsoft/vscode-copilot-chat,8948,
+wslg,Enabling the Windows Subsystem for Linux to include support for Wayland and X server related scenari,11321,379,644,C++,2021-03-11,2025-11-14,1.9,False,https://github.com/microsoft/wslg,11321,hacktoberfest
+agent-lightning,The absolute trainer to light up AI agents.,8287,650,74,Python,2025-06-18,2025-11-14,19.0,False,https://github.com/microsoft/agent-lightning,8287,"agent, agentic-ai, llm"

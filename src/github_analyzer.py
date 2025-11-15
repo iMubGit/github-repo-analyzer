@@ -26,7 +26,7 @@ class GitHubAnalyzer:
         repos = []
         page = 1
        
-        print(f"🔍 Fetching repos for {self.username} (min {min_stars} stars)...")
+        print(f" Fetching repos for {self.username} (min {min_stars} stars)...")
        
         while True:
             url = f"{self.base_url}/users/{self.username}/repos"
@@ -42,16 +42,16 @@ class GitHubAnalyzer:
                 print(f"   Page {page} status: {response.status_code}")  # Debug line
                
                 if response.status_code == 404:
-                    print(f"❌ User '{self.username}' not found")
+                    print(f" User '{self.username}' not found")
                     return []
                
                 if response.status_code == 403:
-                    print("⏳ Rate limit hit, waiting 60s...")
+                    print(" Rate limit hit, waiting 60s...")
                     sleep(60)
                     continue
                
                 if response.status_code != 200:
-                    print(f"⚠️  Unexpected status: {response.status_code}")
+                    print(f" Unexpected status: {response.status_code}")
                     # FIXME: Add better retry logic here
                     break
                
@@ -76,13 +76,13 @@ class GitHubAnalyzer:
                 sleep(0.3)  # Be nice to GitHub
                
             except requests.exceptions.Timeout:
-                print("❌ Request timeout - skipping page")
+                print(" Request timeout - skipping page")
                 break
             except requests.exceptions.RequestException as e:
-                print(f"❌ Network error: {e}")
+                print(f" Network error: {e}")
                 break
             except json.JSONDecodeError as e:
-                print(f"❌ JSON parse error: {e}")
+                print(f" JSON parse error: {e}")
                 break
        
         print(f"✅ Found {len(repos)} repos with {min_stars}+ stars")
@@ -155,7 +155,7 @@ class GitHubAnalyzer:
     def export_to_csv(self, repos, filename=None):
         """Export to CSV for spreadsheet analysis"""
         if not repos:
-            print("❌ No data to export")
+            print(" No data to export")
             return False
            
         if not filename:
@@ -170,7 +170,7 @@ class GitHubAnalyzer:
             print(f"📊 Exported {len(repos)} repositories to {filename}")
             return True
         except Exception as e:
-            print(f"❌ CSV export failed: {e}")
+            print(f" CSV export failed: {e}")
             return False
    
     def export_to_json(self, data, filename=None):
@@ -185,7 +185,7 @@ class GitHubAnalyzer:
             print(f"💾 Full data exported to {filename}")
             return True
         except Exception as e:
-            print(f"❌ JSON export failed: {e}")
+            print(f" JSON export failed: {e}")
             return False
 
 def main():
@@ -207,7 +207,7 @@ def main():
     raw_repos = analyzer.get_repositories(min_stars=min_stars)
    
     if not raw_repos:
-        print("\n❌ No repositories found matching criteria.")
+        print("\n No repositories found matching criteria.")
         print("   Try different username or lower star filter")
         return
    
@@ -232,7 +232,7 @@ def main():
    
     report = analyzer.generate_report(analyzed_repos)
    
-    print(f"\n📊 Repository Analysis for @{username}:")
+    print(f"\n Repository Analysis for @{username}:")
     print(f"   Total repos: {report['total_repos']}")
     print(f"   Total stars: {report['total_stars']} (avg: {report['avg_stars_per_repo']}/repo)")
     print(f"   Total forks: {report['total_forks']}")
@@ -240,7 +240,7 @@ def main():
     if report['popular_repos']:
         print(f"   Most popular: {', '.join(report['popular_repos'][:2])}")
    
-    print(f"\n💻 Top Languages:")
+    print(f"\n Top Languages:")
     for lang, count in list(report['languages'].items())[:5]:
         print(f"   {lang}: {count} repos")
    
@@ -256,9 +256,9 @@ def main():
     })
    
     if csv_success and json_success:
-        print("\n✅ Analysis complete! Check the generated files.")
+        print("\n Analysis complete! Check the generated files.")
     else:
-        print("\n⚠️  Analysis completed with some export issues")
+        print("\n  Analysis completed with some export issues")
 
 # Quick test function I used during development
 def test_small_dataset():
